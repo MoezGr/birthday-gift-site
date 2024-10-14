@@ -1,0 +1,106 @@
+body {
+    font-family: "Happy Monkey", system-ui;
+    color: #ffffff;
+    background: linear-gradient(blue, #EFB0C9);
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    /*ces 3 lignes sont ensemble car h2 et h4 en pink ci-dessous me colorent la ligne entière*/
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#pic {
+    width: 270px;
+    height: 370px;
+    border: 100px solide #0de358;
+    border-radius: 50%;
+}
+
+#bday-age {
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#bday-date {
+    margin: 0;
+    background-color: #EFB0C9;
+    padding: px 10px;
+    border-radius: 5px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-img {
+    margin: 20px auto;  /*c'est cette margin qui a centré l'image au centre*/
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(5, 4, 0);
+    border-radius: 10px;
+    background-image: url(./images/Gift-cover.jpg);
+    background-size: cover;
+}
+
+.gift-hint {
+    margin-top: 0px;
+}
+
+#gift-img-gold:hover {
+    background-image: url("./images/Gold.jpg");
+    background-size: cover;
+}
+
+#gift-img-friends:hover {
+    background-image: url("./images/Friends.webp");
+}
+
+#gift-img-genius:hover {
+    background-image: url("./images/Genius.jpg");
+}
+
+#gift-img-badass:hover {
+    background-image: url("./images/Badass.webp");
+}
+
+#gift-img-ami {
+    height: 200px;
+}
+
+#gift-img-ami:hover {
+    background-image: url("./images/fleurs.webp");
+}
+
+#dev {
+    margin-top: 1px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.devenir {
+    margin: 40px auto 10px;
+}
+
+#reaction {
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+#badass {
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+#mot {
+    margin: 40px auto 20px;
+}
